@@ -1,8 +1,8 @@
 <?php
 $app_name   = $_POST[“app”];
-$senderMum    = $_POST[“senderMum”];
+$Mum    = $_POST[“Mum”];  
 $message    = $_POST[“message”];
 
-$response = array("reply" => "Hello $sender, I am good today $message.");
+$response = array("reply" => "Hello $Mum, I am good now, preparing for tomorrow $message.");
 echo json_encode($response);
 ?>
